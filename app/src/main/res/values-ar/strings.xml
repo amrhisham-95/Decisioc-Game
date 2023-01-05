@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">لعبة قرار</string>
+    <string name="choose_your_game" translatable="false">اختر لعبتك</string>
+    <string name="instructionsTitle1" translatable="false">مرحباً عزيزي</string>
+    <string name="instructions1" translatable="false">اختر أحد الإختيارات الأربعة لتبدأ اللعبة</string>
+    <string name="instructions2" translatable="false">اللعبة مقسمة إلى أربع مستويات كل مستوى يحتوي على ثلاث أسئلة</string>
+    <string name="instructions3" translatable="false">انظر إلى الصورة المعروضة و اختبر ذاكرتك</string>
+    <string name="instructions4" translatable="false">اللعبة مقسمة إلى أربع مستويات</string>
+    <string name="start_the_game" translatable="false">ابدأ اللعبة</string>
+    <string name="start" translatable="false">ابدأ</string>
+    <string name="back" translatable="false">عُد للخلف</string>
+    <string name="go_next" translatable="false">التالي</string>
+    <string name="S1C1LV1Sciences" translatable="false">علم الرياضيات</string>
+    <string name="S1C2LV1Sciences" translatable="false">علم الفلك</string>
+    <string name="S1C3LV1Sciences" translatable="false">علم الأحياء</string>
+    <string name="Q1LV1History" translatable="false">في أي مدينة وجدت إحدى عجائب العالم القديم ، “الحدائق المعلقة”؟</string>
+    <string name="Q2LV1History" translatable="false">في أي سنة انتحر هتلر؟</string>
+    <string name="Q3LV1History" translatable="false">كم عدد أيام الأسبوع في العصور الرومانية القديمة؟</string>
+    <string name="Q1LV1Sciences" translatable="false">ما هو أقدم نوع من أنواع العلوم؟</string>
+    <string name="Q2LV1Sciences" translatable="false">كم عدد أسنان فم الإنسان؟.</string>
+    <string name="Q3LV1Sciences" translatable="false">ما هي أندر فصيلة من فصائل الدم؟</string>
+    <string name="S1C1LV1History" translatable="false">بابليون</string>
+    <string name="S1C2LV1History" translatable="false">البصرة</string>
+    <string name="S1C3LV1History" translatable="false">ميلانو</string>
+    <string name="Q1LV1Geography" translatable="false">كم يبلغ عدد الدول بقاراة أفريقيا؟</string>
+    <string name="Q2LV1Geography" translatable="false">" ما هي أكبر صحراء في العالم؟"</string>
+    <string name="Q3LV1Geography" translatable="false">أين يوجد جبل كليمنجارو؟</string>
+    <string name="S2C1LV1Geography" translatable="false">الصحراء الكبرى</string>
+    <string name="S2C2LV1Geography" translatable="false">صحراء الربع الخالي</string>
+    <string name="S2C3LV1Geography" translatable="false">الصحراء الأسترالية</string>
+    <string name="S3C1LV1Geography" translatable="false">قارة أسيا</string>
+    <string name="S3C2LV1Geography" translatable="false">قارة أفريقيا</string>
+    <string name="S3C3LV1Geography" translatable="false">قارة أوروبا</string>
+    <string name="S1C1LV2Sports" translatable="false">الجزائر</string>
+    <string name="S1C2LV2Sports" translatable="false">السنغال</string>
+    <string name="S1C3LV2Sports" translatable="false">مصر</string>
+    <string name="S2C1LV2Sports" translatable="false">البرازيل</string>
+    <string name="S2C2LV2Sports" translatable="false">ألمانيا</string>
+    <string name="S2C3LV2Sports" translatable="false">الأرجنتين</string>
+    <string name="Q1LV2Sports" translatable="false">"ما هي أول دولة أفريقية تأهلت لكأس العالم؟ "</string>
+    <string name="Q2LV2Sports" translatable="false">"ما هي الدولة الوحيدة التي شاركت في اللعب في كل كأس عالم لكرة القدم؟ "</string>
+    <string name="Q3LV2Sports" translatable="false">"ما هو الرقم القياسي للبطاقات الحمراء في مباراة كرة القدم الواحدة؟ "</string>
+    <string name="Q1LV3Sports" translatable="false">يتألف فريق الهاند بول من:</string>
+    <string name="Q2LV3Sports" translatable="false">الدورة الأولومبية التى قاطعها العرب هى:</string>
+    <string name="Q3LV3Sports" translatable="false">ظهرت البطاقات الصفراء والحمراء فى كأس العالم عام</string>
+    <string name="S2C1LV1Sports" translatable="false">6 اخطاء</string>
+    <string name="Q1LV1Sports" translatable="false">س1 : البرازيل فازت بكأس العالم 5 مرات حتي منديال 2002 وكانت الأعوام :</string>
+    <string name="Q2LV1Sports" translatable="false">"س2 : كم عدد الأخطاء الشخصية التي يمكن للاعب كرة السلة ارتكابها قبل أن يتم طرده من الملعب؟ "</string>
+    <string name="Q3LV1Sports" translatable="false">س3 : كم عدد لاعبي فريق البيسبول الواحد؟</string>
+    <string name="S2C2LV1Sports" translatable="false">7 أخطاء</string>
+    <string name="S2C3LV1Sports" translatable="false">5 أخطاء</string>
+    <string name="S3C1LV1Sports" translatable="false">8 لاعبين</string>
+    <string name="S3C2LV1Sports" translatable="false">9 لاعبين</string>
+    <string name="S3C3LV1Sports" translatable="false">10 لاعبين</string>
+    <string name="Q1LV2Sciences" translatable="false">ما هو الكوكب الأكثر حراراة بين كواكب المجموعة الشمسية؟</string>
+    <string name="Q2LV2Sciences" translatable="false">ما هو القانون الذي ينص على أن “لكل فعل رد فعل مساوي له في المقدار ومضاد له في الاتجاه”؟</string>
+    <string name="Q3LV2Sciences" translatable="false">ما هو نوع شحنة النيترون؟</string>
+    <string name="S1C3LV2Sciences" translatable="false">كوكب بلوتو</string>
+    <string name="S1C1LV2Sciences" translatable="false">كوكب عطارد</string>
+    <string name="S1C2LV2Sciences" translatable="false">كوكب الزهرة</string>
+    <string name="S2C1LV2Sciences" translatable="false">قانون نيوتن الأول</string>
+    <string name="S2C2LV2Sciences" translatable="false">قانون نيوتن الثاني</string>
+    <string name="S2C3LV2Sciences" translatable="false">قانون نيوتن الثالث</string>
+    <string name="S3C1LV2Sciences" translatable="false">شحنة سالبة</string>
+    <string name="S3C2LV2Sciences" translatable="false">شحنة موجبة</string>
+    <string name="S3C3LV2Sciences" translatable="false">شحنة متعادلة</string>
+    <string name="Q1LV3Sciences" translatable="false">العضو الوحيد في جسم الإنسان القادر على النمو في حالة قطع جزء منه هو:</string>
+    <string name="Q2LV3Sciences" translatable="false">ما هو عدد صمامات القلب ؟</string>
+    <string name="Q3LV3Sciences" translatable="false">كم يبلغ عدد أرجل النملة ؟</string>
+    <string name="S1C1LV3Sciences" translatable="false">الكلية</string>
+    <string name="S1C2LV3Sciences" translatable="false">الكبد</string>
+    <string name="S1C3LV3Sciences" translatable="false">البنكرياس</string>
+    <string name="S2C1LV3Sports" translatable="false">الصين</string>
+    <string name="S2C2LV3Sports" translatable="false">سويسرا</string>
+    <string name="S2C3LV3Sports" translatable="false">موسكو</string>
+    <string name="Q1LV2History" translatable="false">"ما هي أوّل معركة في التاريخ الإسلامي؟ "</string>
+    <string name="Q2LV2History" translatable="false">من هو ثالاث الخلفاء الراشدين ؟</string>
+    <string name="Q3LV2History" translatable="false">"من هو الامير العثماني فاتح القسطنطينية ؟ "</string>
+    <string name="S1C1LV2History" translatable="false">غزوة بدر</string>
+    <string name="S1C2LV2History" translatable="false">غزوة أحد</string>
+    <string name="S1C3LV2History" translatable="false">غزوة الخندق</string>
+    <string name="S2C1LV2History" translatable="false">عمر بن الخطاب</string>
+    <string name="S2C2LV2History" translatable="false">علي بن أبي طالب</string>
+    <string name="S2C3LV2History" translatable="false">عثمان ابن عفان</string>
+    <string name="S3C1LV2History" translatable="false">السلطان محمد مراد الثاني</string>
+    <string name="S3C2LV2History" translatable="false">السلطان محمد مراد الأول</string>
+    <string name="S3C3LV2History" translatable="false">السلطان محمد مراد الثالث</string>
+    <string name="Q1LV3History" translatable="false">"متى كان عام الفيل؟ "</string>
+    <string name="Q2LV3History" translatable="false">"متى بني سور الصين العظيم؟ "</string>
+    <string name="Q3LV3History" translatable="false">"في أي عام فتح المسلمون القدس؟ "</string>
+    <string name="S1C1LV3History" translatable="false">565 ميلادياً</string>
+    <string name="S1C2LV3History" translatable="false">570 ميلادياً</string>
+    <string name="S1C3LV3History" translatable="false">575 ميلادياً</string>
+    <string name="S2C1LV3History" translatable="false">215 قبل الميلاد</string>
+    <string name="S2C2LV3History" translatable="false">200 قبل الميلاد</string>
+    <string name="S2C3LV3History" translatable="false">200 ميلادياً</string>
+    <string name="S3C1LV3History" translatable="false">650 ميلادياً</string>
+    <string name="S3C2LV3History" translatable="false">600 ميلادياً</string>
+    <string name="S3C3LV3History" translatable="false">637 ميلادياً</string>
+    <string name="Q1LV2Geography" translatable="false">"أين يقع تمثال الحرية؟ "</string>
+    <string name="Q2LV2Geography" translatable="false">"ما هو أطول نهر في العالم؟ "</string>
+    <string name="Q3LV2Geography" translatable="false">"ماهما أكبر دولتين عربيتين من حيث المساحة؟ "</string>
+    <string name="S1C1LV2Geography" translatable="false">نيويورك</string>
+    <string name="S1C2LV2Geography" translatable="false">كاليفورنيا</string>
+    <string name="S1C3LV2Geography" translatable="false">سويسرا</string>
+    <string name="S2C1LV2Geography" translatable="false">نهر النيل</string>
+    <string name="S2C2LV2Geography" translatable="false">نهر الأمازون</string>
+    <string name="S2C3LV2Geography" translatable="false">نهر دجلة</string>
+    <string name="S3C1LV2Geography" translatable="false">مصر - ليبيا</string>
+    <string name="S3C2LV2Geography" translatable="false">السودان - الجزائر</string>
+    <string name="S1C1LV3Geography" translatable="false">نيويورك</string>
+    <string name="S1C2LV3Geography" translatable="false">كاليفورنيا</string>
+    <string name="S1C3LV3Geography" translatable="false">سويسرا</string>
+    <string name="S2C1LV3Geography" translatable="false">دمشق</string>
+    <string name="S2C2LV3Geography" translatable="false">بعلبك</string>
+    <string name="S2C3LV3Geography" translatable="false">الرباط</string>
+    <string name="S3C1LV3Geography" translatable="false">البحر الميت</string>
+    <string name="S3C2LV3Geography" translatable="false">البحر المتوسط</string>
+    <string name="S3C3LV3Geography" translatable="false">البحر الأحمر</string>
+    <string name="S3C3LV2Geography" translatable="false">السعودية - قطر</string>
+    <string name="Q1LV3Geography" translatable="false">"أمستردام اسم كان يطلق على مدينة؟ "</string>
+    <string name="Q2LV3Geography" translatable="false">"أين تقع مقبرة صلاح الدين؟ "</string>
+    <string name="Q3LV3Geography" translatable="false">يعرف بالبحر الشامي و بحر الروم فما هو ؟</string>
+    <string name="look_and_start">تأمل الصورة  و ابدأ</string>
+    <string name="Q1LV1QM">كم عدد الوسائد الموجودة في الصورة ؟</string>
+    <string name="Q2LV1QM">ما لون الورود داخل الزهرية على الطاولة ؟</string>
+    <string name="S2C1LV1QM">أحمر</string>
+    <string name="S2C2LV1QM">أخضر</string>
+    <string name="S2C3LV1QM">أصفر</string>
+    <string name="Q1LV2QM">إلى كم تشير الساعة المعلقة على الحائط ؟</string>
+    <string name="Q2LV2QM">كم عدد الأدراج أسفل المرآة ؟</string>
+    <string name="Q1LV3QM">ما لون الهاتف الموجود ؟</string>
+    <string name="Q2LV3QM" translatable="false">ما هو لون السجادة على الأرض ؟</string>
+    <string name="S1C1LV3QM">بني</string>
+    <string name="S1C3LV3QM">أسود</string>
+    <string name="S1C2LV3QM">رمادي</string>
+    <string name="S2C2LV3QM">أحمر</string>
+    <string name="S2C3LV3QM">أخضر</string>
+    <string name="S2C1LV3QM">أسود</string>
+    <string name="level_1">المستوى الأول</string>
+    <string name="level_2">المستوى الثاني</string>
+    <string name="level_3">المستوى الثالث</string>
+    <string name="q1">س1</string>
+    <string name="q2">س2</string>
+    <string name="q3">س3</string>
+    <string name="right_solution">الإجابة الصحيحة</string>
+    <string name="your_solution">إجابتك</string>
+    <string name="play_again_return">العب مرة أخرى (عُد)</string>
+</resources>

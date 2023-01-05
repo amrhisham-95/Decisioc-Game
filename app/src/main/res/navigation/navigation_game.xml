@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_game"
+    app:startDestination="@id/mainFragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.decisiongame.MainFragment"
+        android:label="Decision Game"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_itemsOfMaalomaGameFragment"
+            app:destination="@id/itemsOfMaalomaGameFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_molahzaFragment"
+            app:destination="@id/molahzaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/itemsOfMaalomaGameFragment"
+        android:name="com.example.decisiongame.ItemsOfMaalomaGameFragment"
+        android:label="Instructions Of The Game"
+        tools:layout="@layout/fragment_items_of_maaloma_game">
+        <action
+            android:id="@+id/action_itemsOfMaalomaGameFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_itemsOfMaalomaGameFragment_to_sciencesFragment"
+            app:destination="@id/sciencesFragment" />
+        <action
+            android:id="@+id/action_itemsOfMaalomaGameFragment_to_sportsFragment"
+            app:destination="@id/sportsFragment" />
+        <action
+            android:id="@+id/action_itemsOfMaalomaGameFragment_to_historyFragment"
+            app:destination="@id/historyFragment" />
+        <action
+            android:id="@+id/action_itemsOfMaalomaGameFragment_to_geographyFragment"
+            app:destination="@id/geographyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/molahzaFragment"
+        android:name="com.example.decisiongame.MolahzaFragment"
+        android:label="Instructions Of The Game"
+        tools:layout="@layout/fragment_molahza">
+        <action
+            android:id="@+id/action_molahzaFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_molahzaFragment_to_qwamolahzaFragment"
+            app:destination="@id/qwamolahzaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sportsFragment"
+        android:name="com.example.decisiongame.SportsFragment"
+        android:label="Sports Level 1"
+        tools:layout="@layout/fragment_sports" >
+        <action
+            android:id="@+id/action_sportsFragment_to_itemsOfMaalomaGameFragment"
+            app:destination="@id/itemsOfMaalomaGameFragment" />
+        <action
+            android:id="@+id/action_sportsFragment_to_sportsLevel1Fragment"
+            app:destination="@id/sportsLevel1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sciencesFragment"
+        android:name="com.example.decisiongame.SciencesFragment"
+        android:label="Sciences Level 1"
+        tools:layout="@layout/fragment_sciences" >
+        <action
+            android:id="@+id/action_sciencesFragment_to_itemsOfMaalomaGameFragment"
+            app:destination="@id/itemsOfMaalomaGameFragment" />
+        <action
+            android:id="@+id/action_sciencesFragment_to_sciencesLevel1Fragment"
+            app:destination="@id/sciencesLevel1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/geographyFragment"
+        android:name="com.example.decisiongame.GeographyFragment"
+        android:label="Geography Level 1"
+        tools:layout="@layout/fragment_geography" >
+        <action
+            android:id="@+id/action_geographyFragment_to_itemsOfMaalomaGameFragment"
+            app:destination="@id/itemsOfMaalomaGameFragment" />
+        <action
+            android:id="@+id/action_geographyFragment_to_geographyLevel1Fragment"
+            app:destination="@id/geographyLevel1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.decisiongame.HistoryFragment"
+        android:label="History Level 1"
+        tools:layout="@layout/fragment_history" >
+        <action
+            android:id="@+id/action_historyFragment_to_itemsOfMaalomaGameFragment"
+            app:destination="@id/itemsOfMaalomaGameFragment" />
+        <action
+            android:id="@+id/action_historyFragment_to_historyLevel1Fragment"
+            app:destination="@id/historyLevel1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/qwamolahzaFragment"
+        android:name="com.example.decisiongame.QwamolahzaFragment"
+        android:label="Level 1"
+        tools:layout="@layout/fragment_qwamolahza" >
+        <action
+            android:id="@+id/action_qwamolahzaFragment_to_molahzaFragment"
+            app:destination="@id/molahzaFragment" />
+        <action
+            android:id="@+id/action_qwamolahzaFragment_to_qwamolahzaLevel1Fragment"
+            app:destination="@id/qwamolahzaLevel1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sportsLevel1Fragment"
+        android:name="com.example.decisiongame.SportsLevel1Fragment"
+        android:label="fragment_sports_level1"
+        tools:layout="@layout/fragment_sports_level1" >
+        <action
+            android:id="@+id/action_sportsLevel1Fragment_to_itemsOfMaalomaGameFragment"
+            app:destination="@id/itemsOfMaalomaGameFragment"
+            app:popUpTo="@id/sportsFragment" />
+        <action
+            android:id="@+id/action_sportsLevel1Fragment_to_sportsLevel2Fragment"
+            app:destination="@id/sportsLevel2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sciencesLevel1Fragment"
+        android:name="com.example.decisiongame.SciencesLevel1Fragment"
+        android:label="fragment_sciences_level1"
+        tools:layout="@layout/fragment_sciences_level1" >
+        <action
+            android:id="@+id/action_sciencesLevel1Fragment_to_itemsOfMaalomaGameFragment"
+            app:destination="@id/itemsOfMaalomaGameFragment"
+            app:popUpTo="@id/sciencesFragment" />
+        <action
+            android:id="@+id/action_sciencesLevel1Fragment_to_sciencesLevel2Fragment"
+            app:destination="@id/sciencesLevel2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/geographyLevel1Fragment"
+        android:name="com.example.decisiongame.GeographyLevel1Fragment"
+        android:label="fragment_geography_level1"
+        tools:layout="@layout/fragment_geography_level1" >
+        <action
+            android:id="@+id/action_geographyLevel1Fragment_to_itemsOfMaalomaGameFragment"
+            app:destination="@id/itemsOfMaalomaGameFragment"
+            app:popUpTo="@id/geographyFragment" />
+        <action
+            android:id="@+id/action_geographyLevel1Fragment_to_geographyLevel2Fragment"
+            app:destination="@id/geographyLevel2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyLevel1Fragment"
+        android:name="com.example.decisiongame.HistoryLevel1Fragment"
+        android:label="fragment_history_level1"
+        tools:layout="@layout/fragment_history_level1" >
+        <action
+            android:id="@+id/action_historyLevel1Fragment_to_itemsOfMaalomaGameFragment"
+            app:destination="@id/itemsOfMaalomaGameFragment"
+            app:popUpTo="@id/historyFragment" />
+        <action
+            android:id="@+id/action_historyLevel1Fragment_to_historyLevel2Fragmentt"
+            app:destination="@id/historyLevel2Fragmentt" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/qwamolahzaLevel1Fragment"
+        android:name="com.example.decisiongame.QwamolahzaLevel1Fragment"
+        android:label="fragment_qwamolahza_level1"
+        tools:layout="@layout/fragment_qwamolahza_level1" >
+        <action
+            android:id="@+id/action_qwamolahzaLevel1Fragment_to_molahzaFragment"
+            app:destination="@id/molahzaFragment"
+            app:popUpTo="@id/qwamolahzaFragment" />
+        <action
+            android:id="@+id/action_qwamolahzaLevel1Fragment_to_qwamolahza2Fragment"
+            app:destination="@id/qwamolahza2Fragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/sportsLevel2Fragment"
+        android:name="com.example.decisiongame.SportsLevel2Fragment"
+        android:label="CongratulationLv1SportsFragment"
+        tools:layout="@layout/fragment_sports_level2" >
+        <action
+            android:id="@+id/action_sportsLevel2Fragment_to_sportsLevel1Fragment"
+            app:destination="@id/sportsLevel1Fragment" />
+        <action
+            android:id="@+id/action_sportsLevel2Fragment_to_sportsLevel3Fragment"
+            app:destination="@id/sportsLevel3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyLevel2Fragmentt"
+        android:name="com.example.decisiongame.HistoryLevel2Fragment"
+        android:label="fragment_history_lv1_congratulation"
+        tools:layout="@layout/fragment_history_level2" >
+        <action
+            android:id="@+id/action_historyLevel2Fragmentt_to_historyLevel1Fragment"
+            app:destination="@id/historyLevel1Fragment" />
+        <action
+            android:id="@+id/action_historyLevel2Fragmentt_to_historyLevel3Fragment"
+            app:destination="@id/historyLevel3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/geographyLevel2Fragment"
+        android:name="com.example.decisiongame.GeographyLevel2Fragment"
+        android:label="fragment_goegraphy_lv1_congratulation"
+        tools:layout="@layout/fragment_goegraphy_level2" >
+        <action
+            android:id="@+id/action_geographyLevel2Fragment_to_geographyLevel1Fragment"
+            app:destination="@id/geographyLevel1Fragment" />
+        <action
+            android:id="@+id/action_geographyLevel2Fragment_to_geographyLevel3Fragment"
+            app:destination="@id/geographyLevel3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sciencesLevel2Fragment"
+        android:name="com.example.decisiongame.SciencesLevel2Fragment"
+        android:label="fragment_lv1_sciences_congratulation"
+        tools:layout="@layout/fragment_sciences_level2" >
+        <action
+            android:id="@+id/action_sciencesLevel2Fragment_to_sciencesLevel1Fragment"
+            app:destination="@id/sciencesLevel1Fragment" />
+        <action
+            android:id="@+id/action_sciencesLevel2Fragment_to_sciencesLevel3Fragment"
+            app:destination="@id/sciencesLevel3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sportsLevel3Fragment"
+        android:name="com.example.decisiongame.SportsLevel3Fragment"
+        android:label="SportsLevel3Fragment"
+        tools:layout="@layout/fragment_sports_level3">
+        <action
+            android:id="@+id/action_sportsLevel3Fragment_to_sportsLevel2Fragment"
+            app:destination="@id/sportsLevel2Fragment" />
+        <action
+            android:id="@+id/action_sportsLevel3Fragment_to_congratulationMaalomaGameFragment"
+            app:destination="@id/congratulationMaalomaGameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sciencesLevel3Fragment"
+        android:name="com.example.decisiongame.SciencesLevel3Fragment"
+        android:label="SciencesLevel3Fragment"
+        tools:layout="@layout/fragment_sciences_level3">
+        <action
+            android:id="@+id/action_sciencesLevel3Fragment_to_sciencesLevel2Fragment"
+            app:destination="@id/sciencesLevel2Fragment" />
+        <action
+            android:id="@+id/action_sciencesLevel3Fragment_to_congratulationMaalomaGameFragment"
+            app:destination="@id/congratulationMaalomaGameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyLevel3Fragment"
+        android:name="com.example.decisiongame.HistoryLevel3Fragment"
+        android:label="HistoryLevel3Fragment"
+        tools:layout="@layout/fragment_history_level3">
+        <action
+            android:id="@+id/action_historyLevel3Fragment_to_historyLevel2Fragmentt"
+            app:destination="@id/historyLevel2Fragmentt" />
+        <action
+            android:id="@+id/action_historyLevel3Fragment_to_congratulationMaalomaGameFragment"
+            app:destination="@id/congratulationMaalomaGameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/geographyLevel3Fragment"
+        android:name="com.example.decisiongame.GeographyLevel3Fragment"
+        android:label="GeographyLevel3Fragment"
+        tools:layout="@layout/fragment_geography_level3">
+        <action
+            android:id="@+id/action_geographyLevel3Fragment_to_geographyLevel2Fragment"
+            app:destination="@id/geographyLevel2Fragment" />
+        <action
+            android:id="@+id/action_geographyLevel3Fragment_to_congratulationMaalomaGameFragment"
+            app:destination="@id/congratulationMaalomaGameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/qwamolahza2Fragment"
+        android:name="com.example.decisiongame.Qwamolahza2Fragment"
+        android:label="fragment_qwamolahza2"
+        tools:layout="@layout/fragment_qwamolahza2" >
+        <action
+            android:id="@+id/action_qwamolahza2Fragment_to_qwamolahza2Level2Fragment"
+            app:destination="@id/qwamolahza2Level2Fragment" />
+        <action
+            android:id="@+id/action_qwamolahza2Fragment_to_molahzaFragment"
+            app:destination="@id/molahzaFragment"
+            app:popUpTo="@id/molahzaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/qwamolahza2Level2Fragment"
+        android:name="com.example.decisiongame.Qwamolahza2Level2Fragment"
+        android:label="fragment_qwamolahza2_level2"
+        tools:layout="@layout/fragment_qwamolahza2_level2" >
+        <action
+            android:id="@+id/action_qwamolahza2Level2Fragment_to_qwamolahza3Fragment"
+            app:destination="@id/qwamolahza3Fragment" />
+        <action
+            android:id="@+id/action_qwamolahza2Level2Fragment_to_qwamolahza2Fragment"
+            app:destination="@id/qwamolahza2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/qwamolahza3Fragment"
+        android:name="com.example.decisiongame.Qwamolahza3Fragment"
+        android:label="fragment_qwamolahza3"
+        tools:layout="@layout/fragment_qwamolahza3" >
+        <action
+            android:id="@+id/action_qwamolahza3Fragment_to_qwamolahza3Level3Fragment"
+            app:destination="@id/qwamolahza3Level3Fragment" />
+        <action
+            android:id="@+id/action_qwamolahza3Fragment_to_molahzaFragment"
+            app:destination="@id/molahzaFragment"
+            app:popUpTo="@id/molahzaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/qwamolahza3Level3Fragment"
+        android:name="com.example.decisiongame.Qwamolahza3Level3Fragment"
+        android:label="fragment_qwamolahza3_level3"
+        tools:layout="@layout/fragment_qwamolahza3_level3" >
+        <action
+            android:id="@+id/action_qwamolahza3Level3Fragment_to_qwamolahza3Fragment"
+            app:destination="@id/qwamolahza3Fragment" />
+        <action
+            android:id="@+id/action_qwamolahza3Level3Fragment_to_congratulationQwamolahzaGameFragment"
+            app:destination="@id/congratulationQwamolahzaGameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/congratulationQwamolahzaGameFragment"
+        android:name="com.example.decisiongame.CongratulationQwamolahzaGameFragment"
+        android:label="CongratulationQwamolahzaGameFragment"
+        tools:layout="@layout/fragment_congratulation_qwamolahza_game"
+        >
+        <action
+            android:id="@+id/action_congratulationQwamolahzaGameFragment_to_molahzaFragment"
+            app:destination="@id/molahzaFragment"
+            app:popUpTo="@id/molahzaFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/congratulationMaalomaGameFragment"
+        android:name="com.example.decisiongame.CongratulationMaalomaGameFragment"
+        android:label="CongratulationMaalomaGameFragment"
+        tools:layout="@layout/fragment_congratulation_maaloma_game">
+        <action
+            android:id="@+id/action_congratulationMaalomaGameFragment_to_itemsOfMaalomaGameFragment"
+            app:destination="@id/itemsOfMaalomaGameFragment" />
+    </fragment>
+</navigation>

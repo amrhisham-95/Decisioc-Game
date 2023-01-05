@@ -1,0 +1,257 @@
+<resources>
+    <string name="app_name" translatable="false">Decision Game</string>
+    <string name="logoPic" translatable="false">logoPic</string>
+    <string name="choose_your_game" translatable="false">Choose Your Game</string>
+    <string name="knowledgepic" translatable="false">knowledgepic</string>
+    <string name="molahzapic" translatable="false">molahzapic</string>
+    <string name="instructionsTitle1" translatable="false">Welcome Dear</string>
+    <string name="instructions1" translatable="false">Choose one of the four choices below And Start The Game</string>
+    <string name="instructions2" translatable="false">The Game is divided into four levels each level has three questions</string>
+    <string name="instructions3" translatable="false">Look at the picture displayed and answer the questions</string>
+    <string name="instructions4" translatable="false">The Game is divided into four levels</string>
+    <string name="start_the_game" translatable="false">Start The Game</string>
+    <string name="start" translatable="false">Start</string>
+    <string name="back" translatable="false">Back</string>
+    <string name="sports" translatable="false">sports</string>
+    <string name="geography" translatable="false">geography</string>
+    <string name="sciences" translatable="false">sciences</string>
+    <string name="history" translatable="false">history</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="startbutton" translatable="false">startButton</string>
+    <string name="textview" translatable="false">TextView</string>
+    <string name="textview2" translatable="false">TextView</string>
+    <string name="textview3" translatable="false">TextView</string>
+    <string name="go_next" translatable="false"> GO NEXT </string>
+
+    <string name="Q1LV1Sports" translatable="false">Q1: Brazil won the World Cup 5 times until the 2002 World Cup and the years were: </string>
+    <string name="Q2LV1Sports" translatable="false">Q2: How many personal mistakes can a basketball player make before being kicked off the court? </string>
+    <string name="Q3LV1Sports" translatable="false">Q3: How many players is one baseball team?</string>
+    //true
+    <string name="S1C1LV1Sports" translatable="false"> ( 1958-1962-1970-1994-2002 )</string>
+    <string name="S1C2LV1Sports" translatable="false"> ( 1954-1962-1970-1994-2002 )</string>
+    <string name="S1C3LV1Sports" translatable="false"> ( 1958-1962-1970-1998-2002 )</string>
+    //true
+    <string name="S2C1LV1Sports" translatable="false">6 Mistakes </string>
+    <string name="S2C2LV1Sports" translatable="false">7 Mistakes </string>
+    <string name="S2C3LV1Sports" translatable="false">5 Mistakes </string>
+    <string name="S3C1LV1Sports" translatable="false">8 Players </string>
+    //true
+    <string name="S3C2LV1Sports" translatable="false">9 Players </string>
+    <string name="S3C3LV1Sports" translatable="false">10 Players </string>
+
+    <string name="Q1LV2Sports" translatable="false">Q1: What was the first African country to qualify for the World Cup? </string>
+    <string name="Q2LV2Sports" translatable="false">Q2: What is the only country that has participated in playing in every FIFA World Cup? </string>
+    <string name="Q3LV2Sports" translatable="false">Q3: What is the record for red cards per football match? </string>
+    <string name="S1C1LV2Sports" translatable="false"> Algeria </string>
+    <string name="S1C2LV2Sports" translatable="false"> Senegal </string>
+    //true
+    <string name="S1C3LV2Sports" translatable="false"> Egypt </string>
+    //true
+    <string name="S2C1LV2Sports" translatable="false"> Brazil </string>
+    <string name="S2C2LV2Sports" translatable="false"> German </string>
+    <string name="S2C3LV2Sports" translatable="false"> Argentina </string>
+    <string name="S3C1LV2Sports" translatable="false"> 10 </string>
+    //true
+    <string name="S3C2LV2Sports" translatable="false"> 36 </string>
+    <string name="S3C3LV2Sports" translatable="false"> 6 </string>
+
+    <string name="Q1LV3Sports" translatable="false">Q1: The hand ball team consists of: </string>
+    <string name="Q2LV3Sports" translatable="false">Q2: The Olympic Games that the Arabs boycotted are: </string>
+    <string name="Q3LV3Sports" translatable="false">Q3: Yellow and red cards appeared at the World Cup in: </string>
+    <string name="S1C1LV3Sports" translatable="false"> 12 </string>
+    //true
+    <string name="S1C2LV3Sports" translatable="false"> 11 </string>
+    <string name="S1C3LV3Sports" translatable="false"> 10 </string>
+    <string name="S2C1LV3Sports" translatable="false"> China </string>
+    <string name="S2C2LV3Sports" translatable="false"> Switzerland </string>
+    //true
+    <string name="S2C3LV3Sports" translatable="false"> Moscow </string>
+    <string name="S3C1LV3Sports" translatable="false"> 1971 </string>
+    //true
+    <string name="S3C2LV3Sports" translatable="false"> 1970 </string>
+    <string name="S3C3LV3Sports" translatable="false"> 1972 </string>
+
+    <string name="Q1LV1History" translatable="false">Q1: In which city did you find one of the wonders of the ancient world, the "Hanging Gardens"? </string>
+    <string name="Q2LV1History" translatable="false">Q2: What year did Hitler commit suicide? </string>
+    <string name="Q3LV1History" translatable="false">Q3: How many days of the week in ancient Roman times? </string>
+    //true
+    <string name="S1C1LV1History" translatable="false"> Babylon </string>
+    <string name="S1C2LV1History" translatable="false"> Basra </string>
+    <string name="S1C3LV1History" translatable="false"> Milan </string>
+    //true
+    <string name="S2C1LV1History" translatable="false"> 1945 </string>
+    <string name="S2C2LV1History" translatable="false"> 1946 </string>
+    <string name="S2C3LV1History" translatable="false"> 1947 </string>
+    //true
+    <string name="S3C1LV1History" translatable="false"> 8 </string>
+    <string name="S3C2LV1History" translatable="false"> 9 </string>
+    <string name="S3C3LV1History" translatable="false"> 10 </string>
+
+    <string name="Q1LV2History" translatable="false">Q1: What was the first battle in Islamic history? </string>
+    <string name="Q2LV2History" translatable="false">Q2: Who is the third Rightly-Guided Caliph? </string>
+    <string name="Q3LV2History" translatable="false">Q3: Who is the Ottoman prince, conqueror of Constantinople? </string>
+    //true
+    <string name="S1C1LV2History" translatable="false"> Badr </string>
+    <string name="S1C2LV2History" translatable="false"> Ohd </string>
+    <string name="S1C3LV2History" translatable="false"> Khandaq </string>
+    <string name="S2C1LV2History" translatable="false"> Umar ibn al-Khattab </string>
+    <string name="S2C2LV2History" translatable="false"> Ali ibn Abi-Taleb </string>
+    //true
+    <string name="S2C3LV2History" translatable="false"> Uthman ibn Affan </string>
+    //true
+    <string name="S3C1LV2History" translatable="false"> Sultan Mohamed Morad || </string>
+    <string name="S3C2LV2History" translatable="false"> Sultan Mohamed Morad | </string>
+    <string name="S3C3LV2History" translatable="false"> Sultan Mohamed Morad |V </string>
+
+
+    <string name="Q1LV3History" translatable="false">Q1: When was the Year of the Elephant? </string>
+    <string name="Q2LV3History" translatable="false">Q2: When was the Great Wall of China built? </string>
+    <string name="Q3LV3History" translatable="false">Q3: What year did the Muslims conquer Jerusalem? </string>
+    <string name="S1C1LV3History" translatable="false"> 565 AD </string>
+    //true
+    <string name="S1C2LV3History" translatable="false"> 570 AD </string>
+    <string name="S1C3LV3History" translatable="false"> 575 AD </string>
+    //true
+    <string name="S2C1LV3History" translatable="false"> 215 BC </string>
+    <string name="S2C2LV3History" translatable="false"> 200 BC </string>
+    <string name="S2C3LV3History" translatable="false"> 200 AD </string>
+    <string name="S3C1LV3History" translatable="false"> 650 AD </string>
+    <string name="S3C2LV3History" translatable="false"> 600 AD </string>
+    //true
+    <string name="S3C3LV3History" translatable="false"> 637 AD </string>
+
+    <string name="Q1LV1Sciences" translatable="false">Q1: What is the oldest type of science? </string>
+    <string name="Q2LV1Sciences" translatable="false">Q2: How many teeth does a human mouth have? </string>
+    <string name="Q3LV1Sciences" translatable="false">Q3: What is the rarest blood type? </string>
+    <string name="S1C1LV1Sciences" translatable="false"> Mathematics </string>
+    <string name="S1C2LV1Sciences" translatable="false"> Astronomy </string>
+    //true
+    <string name="S1C3LV1Sciences" translatable="false"> Biology </string>
+    <string name="S2C1LV1Sciences" translatable="false"> 32 </string>
+    //true
+    <string name="S2C2LV1Sciences" translatable="false"> 33 </string>
+    <string name="S2C3LV1Sciences" translatable="false"> 34 </string>
+    //true
+    <string name="S3C1LV1Sciences" translatable="false"> AB- </string>
+    <string name="S3C2LV1Sciences" translatable="false"> AB+ </string>
+    <string name="S3C3LV1Sciences" translatable="false"> O+ </string>
+
+
+    <string name="Q1LV2Sciences" translatable="false">Q1: What is the hottest planet of the solar system? </string>
+    <string name="Q2LV2Sciences" translatable="false">Q2: What is the law that states that "every action has an equal and opposite reaction"? </string>
+    <string name="Q3LV2Sciences" translatable="false">Q3: What type of neutron charge is it? </string>
+    <string name="S1C1LV2Sciences" translatable="false"> Mercury </string>
+    //true
+    <string name="S1C2LV2Sciences" translatable="false"> Venus </string>
+    <string name="S1C3LV2Sciences" translatable="false"> Pluto </string>
+    <string name="S2C1LV2Sciences" translatable="false"> Newton 1st Law </string>
+    //true
+    <string name="S2C2LV2Sciences" translatable="false"> Newton 3rd Law </string>
+    <string name="S2C3LV2Sciences" translatable="false"> Newton 2nd Law </string>
+    <string name="S3C1LV2Sciences" translatable="false"> Negative </string>
+    <string name="S3C2LV2Sciences" translatable="false"> Positive </string>
+    //true
+    <string name="S3C3LV2Sciences" translatable="false"> Neutral </string>
+
+    <string name="Q1LV3Sciences" translatable="false">Q1: The only organ in the human body that is able to grow if part of it is cut is: </string>
+    <string name="Q2LV3Sciences" translatable="false">Q2: How many heart valves? </string>
+    <string name="Q3LV3Sciences" translatable="false">Q3: How many legs does an ant have? </string>
+    <string name="S1C1LV3Sciences" translatable="false"> Kidney </string>
+    //true
+    <string name="S1C2LV3Sciences" translatable="false"> Liver </string>
+    <string name="S1C3LV3Sciences" translatable="false"> Pancreas </string>
+    //true
+    <string name="S2C1LV3Sciences" translatable="false"> 4 </string>
+    <string name="S2C2LV3Sciences" translatable="false"> 3 </string>
+    <string name="S2C3LV3Sciences" translatable="false"> 8 </string>
+    <string name="S3C1LV3Sciences" translatable="false"> 8 </string>
+    //true
+    <string name="S3C2LV3Sciences" translatable="false"> 16 </string>
+    <string name="S3C3LV3Sciences" translatable="false"> 4 </string>
+
+    <string name="Q1LV1Geography" translatable="false">Q1: How many countries are there on the continent of Africa? </string>
+    <string name="Q2LV1Geography" translatable="false">Q2:  What is the largest desert in the world? </string>
+    <string name="Q3LV1Geography" translatable="false">Q3: Where is Mount Kilimanjaro? </string>
+    //true
+    <string name="S1C1LV1Geography" translatable="false"> 54 </string>
+    <string name="S1C2LV1Geography" translatable="false"> 55 </string>
+    <string name="S1C3LV1Geography" translatable="false"> 53 </string>
+    //true
+    <string name="S2C1LV1Geography" translatable="false"> Sahara Desert </string>
+    <string name="S2C2LV1Geography" translatable="false"> Empty Quarter Desert </string>
+    <string name="S2C3LV1Geography" translatable="false"> Australian Sahara </string>
+    <string name="S3C1LV1Geography" translatable="false"> Asia </string>
+    //true
+    <string name="S3C2LV1Geography" translatable="false"> Africa </string>
+    <string name="S3C3LV1Geography" translatable="false"> Europe </string>
+
+    <string name="Q1LV2Geography" translatable="false">Q1: Where is the Statue of Liberty located? </string>
+    <string name="Q2LV2Geography" translatable="false">Q2: What is the longest river in the world? </string>
+    <string name="Q3LV2Geography" translatable="false">Q3: What are the two largest Arab countries in terms of area? </string>
+    //true
+    <string name="S1C1LV2Geography" translatable="false"> New York City </string>
+    <string name="S1C2LV2Geography" translatable="false"> California City </string>
+    <string name="S1C3LV2Geography" translatable="false"> Switzerland City </string>
+    //true
+    <string name="S2C1LV2Geography" translatable="false"> Nile River </string>
+    <string name="S2C2LV2Geography" translatable="false"> Amazon River </string>
+    <string name="S2C3LV2Geography" translatable="false"> Tigris River </string>
+    <string name="S3C1LV2Geography" translatable="false"> Egypt-Libya </string>
+    //true
+    <string name="S3C2LV2Geography" translatable="false"> Sudan-Algeria </string>
+    <string name="S3C3LV2Geography" translatable="false"> SaudiArabia-Qatar </string>
+
+    <string name="Q1LV3Geography" translatable="false">Q1: Amsterdam was the name given to a city? </string>
+    <string name="Q2LV3Geography" translatable="false">Q2: Where is the Saladin cemetery located? </string>
+    <string name="Q3LV3Geography" translatable="false">Q3: It is known as the Levantine Sea and the Sea of Rum, so what is it? </string>
+    //true
+    <string name="S1C1LV3Geography" translatable="false"> NewYork City </string>
+    <string name="S1C2LV3Geography" translatable="false"> California City </string>
+    <string name="S1C3LV3Geography" translatable="false"> Switzerland City </string>
+    //true
+    <string name="S2C1LV3Geography" translatable="false"> Damascus City </string>
+    <string name="S2C2LV3Geography" translatable="false"> Baalbeck City </string>
+    <string name="S2C3LV3Geography" translatable="false"> Rabat City </string>
+    <string name="S3C1LV3Geography" translatable="false"> Dead Sea </string>
+    //true
+    <string name="S3C2LV3Geography" translatable="false"> Mediterranean Sea </string>
+    <string name="S3C3LV3Geography" translatable="false"> Red Sea </string>
+    <string name="look_and_start" translatable="false">LOOK And Start</string>
+
+    <string name="Q1LV1QM" translatable="false">How many pillows are there in the picture?</string>
+    <string name="Q2LV1QM" translatable="false">What color are the roses inside the vase on the table?</string>
+    <string name="S1C1LV1QM" translatable="false">5</string>
+    <string name="S1C2LV1QM" translatable="false">6</string>
+    <string name="S1C3LV1QM" translatable="false">7</string>
+    <string name="S2C1LV1QM" translatable="false">Red</string>
+    <string name="S2C2LV1QM" translatable="false">Green</string>
+    <string name="S2C3LV1QM" translatable="false">Yelllow</string>
+    <string name="S2C3LV2QM" translatable="false">12:10</string>
+    <string name="S2C2LV2QM" translatable="false">9:10</string>
+    <string name="S2C1LV2QM" translatable="false">10:10</string>
+    <string name="S1C3LV2QM" translatable="false">6</string>
+    <string name="S1C2LV2QM" translatable="false">5</string>
+    <string name="S1C1LV2QM" translatable="false">7</string>
+    <string name="Q2LV2QM" translatable="false">How many drawers are under the mirror?</string>
+    <string name="Q1LV2QM" translatable="false">How much does a wall clock indicate?</string>
+    <string name="Q1LV3QM" translatable="false">What color is the existing phone?</string>
+    <string name="Q2LV3QM" translatable="false">What is the color of the carpet on the floor?</string>
+    <string name="S1C1LV3QM" translatable="false">Brown</string>
+    <string name="S1C3LV3QM" translatable="false">Black</string>
+    <string name="S1C2LV3QM" translatable="false">Grey</string>
+    <string name="S2C2LV3QM" translatable="false">Red</string>
+    <string name="S2C3LV3QM" translatable="false">Green</string>
+    <string name="S2C1LV3QM" translatable="false">Black</string>
+
+    <string name="level_1" translatable="false">LEVEL 1</string>
+    <string name="q1" translatable="false">Q1</string>
+    <string name="q2" translatable="false">Q2</string>
+    <string name="q3" translatable="false">Q3</string>
+    <string name="right_solution" translatable="false">Right Solution</string>
+    <string name="level_2" translatable="false">LEVEL 2</string>
+    <string name="your_solution" translatable="false">Your Solution</string>
+    <string name="play_again_return" translatable="false">PLAY AGAIN (RETURN)</string>
+    <string name="level_3" translatable="false">LEVEL 3</string>
+
+
+</resources>
